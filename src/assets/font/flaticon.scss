@@ -1,0 +1,281 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?51eaeaaa8a8ee226534a063a95702b73") format("truetype"),
+url("./flaticon.woff?51eaeaaa8a8ee226534a063a95702b73") format("woff"),
+url("./flaticon.woff2?51eaeaaa8a8ee226534a063a95702b73") format("woff2"),
+url("./flaticon.eot?51eaeaaa8a8ee226534a063a95702b73#iefix") format("embedded-opentype"),
+url("./flaticon.svg?51eaeaaa8a8ee226534a063a95702b73#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "medal": "\f101",
+    "first-prize": "\f102",
+    "medal-1": "\f103",
+    "medal-2": "\f104",
+    "bug": "\f105",
+    "bug-1": "\f106",
+    "bug-2": "\f107",
+    "bug-3": "\f108",
+    "bug-report": "\f109",
+    "business-report": "\f10a",
+    "report": "\f10b",
+    "dashboard": "\f10c",
+    "analytics": "\f10d",
+    "hacker": "\f10e",
+    "hacker-2": "\f10f",
+    "hacker-4": "\f110",
+    "cyber-security": "\f111",
+    "cyber-security-1": "\f112",
+    "security": "\f113",
+    "globe-grid": "\f114",
+    "cyber-security-2": "\f115",
+    "cyber-security-3": "\f116",
+    "cyber": "\f117",
+    "cyber-security-4": "\f118",
+    "vulnerability": "\f119",
+    "cyber-security-6": "\f11a",
+    "infected": "\f11b",
+    "security-1": "\f11c",
+    "phishing": "\f11d",
+    "cloud": "\f11e",
+    "cyber-security-7": "\f11f",
+    "security-2": "\f120",
+    "encryption": "\f121",
+    "lock": "\f122",
+    "theft": "\f123",
+    "virus": "\f124",
+    "unprotected": "\f125",
+    "finger-print": "\f126",
+    "blockchain": "\f127",
+    "blockchain-1": "\f128",
+    "blockchain-2": "\f129",
+    "bitcoin": "\f12a",
+    "blockchain-3": "\f12b",
+    "mobile-application": "\f12c",
+    "ethereum": "\f12d",
+    "ethereum-1": "\f12e",
+    "ethereum-2": "\f12f",
+    "decentralized": "\f130",
+    "decentralized-1": "\f131",
+    "decentralized-2": "\f132",
+    "hacked": "\f133",
+    "hacker-5": "\f134",
+    "skull": "\f135",
+    "console": "\f136",
+    "hacker-6": "\f137",
+    "hack": "\f138",
+    "hacking": "\f139",
+    "data": "\f13a",
+    "hacker-7": "\f13b",
+    "unlocking": "\f13c",
+    "clickbait": "\f13d",
+    "folder": "\f13e",
+    "documents": "\f13f",
+    "spyware": "\f140",
+);
+
+.flaticon-medal:before {
+    content: map-get($flaticon-map, "medal");
+}
+.flaticon-first-prize:before {
+    content: map-get($flaticon-map, "first-prize");
+}
+.flaticon-medal-1:before {
+    content: map-get($flaticon-map, "medal-1");
+}
+.flaticon-medal-2:before {
+    content: map-get($flaticon-map, "medal-2");
+}
+.flaticon-bug:before {
+    content: map-get($flaticon-map, "bug");
+}
+.flaticon-bug-1:before {
+    content: map-get($flaticon-map, "bug-1");
+}
+.flaticon-bug-2:before {
+    content: map-get($flaticon-map, "bug-2");
+}
+.flaticon-bug-3:before {
+    content: map-get($flaticon-map, "bug-3");
+}
+.flaticon-bug-report:before {
+    content: map-get($flaticon-map, "bug-report");
+}
+.flaticon-business-report:before {
+    content: map-get($flaticon-map, "business-report");
+}
+.flaticon-report:before {
+    content: map-get($flaticon-map, "report");
+}
+.flaticon-dashboard:before {
+    content: map-get($flaticon-map, "dashboard");
+}
+.flaticon-analytics:before {
+    content: map-get($flaticon-map, "analytics");
+}
+.flaticon-hacker:before {
+    content: map-get($flaticon-map, "hacker");
+}
+.flaticon-hacker-2:before {
+    content: map-get($flaticon-map, "hacker-2");
+}
+.flaticon-hacker-4:before {
+    content: map-get($flaticon-map, "hacker-4");
+}
+.flaticon-cyber-security:before {
+    content: map-get($flaticon-map, "cyber-security");
+}
+.flaticon-cyber-security-1:before {
+    content: map-get($flaticon-map, "cyber-security-1");
+}
+.flaticon-security:before {
+    content: map-get($flaticon-map, "security");
+}
+.flaticon-globe-grid:before {
+    content: map-get($flaticon-map, "globe-grid");
+}
+.flaticon-cyber-security-2:before {
+    content: map-get($flaticon-map, "cyber-security-2");
+}
+.flaticon-cyber-security-3:before {
+    content: map-get($flaticon-map, "cyber-security-3");
+}
+.flaticon-cyber:before {
+    content: map-get($flaticon-map, "cyber");
+}
+.flaticon-cyber-security-4:before {
+    content: map-get($flaticon-map, "cyber-security-4");
+}
+.flaticon-vulnerability:before {
+    content: map-get($flaticon-map, "vulnerability");
+}
+.flaticon-cyber-security-6:before {
+    content: map-get($flaticon-map, "cyber-security-6");
+}
+.flaticon-infected:before {
+    content: map-get($flaticon-map, "infected");
+}
+.flaticon-security-1:before {
+    content: map-get($flaticon-map, "security-1");
+}
+.flaticon-phishing:before {
+    content: map-get($flaticon-map, "phishing");
+}
+.flaticon-cloud:before {
+    content: map-get($flaticon-map, "cloud");
+}
+.flaticon-cyber-security-7:before {
+    content: map-get($flaticon-map, "cyber-security-7");
+}
+.flaticon-security-2:before {
+    content: map-get($flaticon-map, "security-2");
+}
+.flaticon-encryption:before {
+    content: map-get($flaticon-map, "encryption");
+}
+.flaticon-lock:before {
+    content: map-get($flaticon-map, "lock");
+}
+.flaticon-theft:before {
+    content: map-get($flaticon-map, "theft");
+}
+.flaticon-virus:before {
+    content: map-get($flaticon-map, "virus");
+}
+.flaticon-unprotected:before {
+    content: map-get($flaticon-map, "unprotected");
+}
+.flaticon-finger-print:before {
+    content: map-get($flaticon-map, "finger-print");
+}
+.flaticon-blockchain:before {
+    content: map-get($flaticon-map, "blockchain");
+}
+.flaticon-blockchain-1:before {
+    content: map-get($flaticon-map, "blockchain-1");
+}
+.flaticon-blockchain-2:before {
+    content: map-get($flaticon-map, "blockchain-2");
+}
+.flaticon-bitcoin:before {
+    content: map-get($flaticon-map, "bitcoin");
+}
+.flaticon-blockchain-3:before {
+    content: map-get($flaticon-map, "blockchain-3");
+}
+.flaticon-mobile-application:before {
+    content: map-get($flaticon-map, "mobile-application");
+}
+.flaticon-ethereum:before {
+    content: map-get($flaticon-map, "ethereum");
+}
+.flaticon-ethereum-1:before {
+    content: map-get($flaticon-map, "ethereum-1");
+}
+.flaticon-ethereum-2:before {
+    content: map-get($flaticon-map, "ethereum-2");
+}
+.flaticon-decentralized:before {
+    content: map-get($flaticon-map, "decentralized");
+}
+.flaticon-decentralized-1:before {
+    content: map-get($flaticon-map, "decentralized-1");
+}
+.flaticon-decentralized-2:before {
+    content: map-get($flaticon-map, "decentralized-2");
+}
+.flaticon-hacked:before {
+    content: map-get($flaticon-map, "hacked");
+}
+.flaticon-hacker-5:before {
+    content: map-get($flaticon-map, "hacker-5");
+}
+.flaticon-skull:before {
+    content: map-get($flaticon-map, "skull");
+}
+.flaticon-console:before {
+    content: map-get($flaticon-map, "console");
+}
+.flaticon-hacker-6:before {
+    content: map-get($flaticon-map, "hacker-6");
+}
+.flaticon-hack:before {
+    content: map-get($flaticon-map, "hack");
+}
+.flaticon-hacking:before {
+    content: map-get($flaticon-map, "hacking");
+}
+.flaticon-data:before {
+    content: map-get($flaticon-map, "data");
+}
+.flaticon-hacker-7:before {
+    content: map-get($flaticon-map, "hacker-7");
+}
+.flaticon-unlocking:before {
+    content: map-get($flaticon-map, "unlocking");
+}
+.flaticon-clickbait:before {
+    content: map-get($flaticon-map, "clickbait");
+}
+.flaticon-folder:before {
+    content: map-get($flaticon-map, "folder");
+}
+.flaticon-documents:before {
+    content: map-get($flaticon-map, "documents");
+}
+.flaticon-spyware:before {
+    content: map-get($flaticon-map, "spyware");
+}

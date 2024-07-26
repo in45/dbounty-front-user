@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?51eaeaaa8a8ee226534a063a95702b73") format("truetype"),
+url("./flaticon.woff?51eaeaaa8a8ee226534a063a95702b73") format("woff"),
+url("./flaticon.woff2?51eaeaaa8a8ee226534a063a95702b73") format("woff2"),
+url("./flaticon.eot?51eaeaaa8a8ee226534a063a95702b73#iefix") format("embedded-opentype"),
+url("./flaticon.svg?51eaeaaa8a8ee226534a063a95702b73#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-medal:before {
+    content: "\f101";
+}
+.flaticon-first-prize:before {
+    content: "\f102";
+}
+.flaticon-medal-1:before {
+    content: "\f103";
+}
+.flaticon-medal-2:before {
+    content: "\f104";
+}
+.flaticon-bug:before {
+    content: "\f105";
+}
+.flaticon-bug-1:before {
+    content: "\f106";
+}
+.flaticon-bug-2:before {
+    content: "\f107";
+}
+.flaticon-bug-3:before {
+    content: "\f108";
+}
+.flaticon-bug-report:before {
+    content: "\f109";
+}
+.flaticon-business-report:before {
+    content: "\f10a";
+}
+.flaticon-report:before {
+    content: "\f10b";
+}
+.flaticon-dashboard:before {
+    content: "\f10c";
+}
+.flaticon-analytics:before {
+    content: "\f10d";
+}
+.flaticon-hacker:before {
+    content: "\f10e";
+}
+.flaticon-hacker-2:before {
+    content: "\f10f";
+}
+.flaticon-hacker-4:before {
+    content: "\f110";
+}
+.flaticon-cyber-security:before {
+    content: "\f111";
+}
+.flaticon-cyber-security-1:before {
+    content: "\f112";
+}
+.flaticon-security:before {
+    content: "\f113";
+}
+.flaticon-globe-grid:before {
+    content: "\f114";
+}
+.flaticon-cyber-security-2:before {
+    content: "\f115";
+}
+.flaticon-cyber-security-3:before {
+    content: "\f116";
+}
+.flaticon-cyber:before {
+    content: "\f117";
+}
+.flaticon-cyber-security-4:before {
+    content: "\f118";
+}
+.flaticon-vulnerability:before {
+    content: "\f119";
+}
+.flaticon-cyber-security-6:before {
+    content: "\f11a";
+}
+.flaticon-infected:before {
+    content: "\f11b";
+}
+.flaticon-security-1:before {
+    content: "\f11c";
+}
+.flaticon-phishing:before {
+    content: "\f11d";
+}
+.flaticon-cloud:before {
+    content: "\f11e";
+}
+.flaticon-cyber-security-7:before {
+    content: "\f11f";
+}
+.flaticon-security-2:before {
+    content: "\f120";
+}
+.flaticon-encryption:before {
+    content: "\f121";
+}
+.flaticon-lock:before {
+    content: "\f122";
+}
+.flaticon-theft:before {
+    content: "\f123";
+}
+.flaticon-virus:before {
+    content: "\f124";
+}
+.flaticon-unprotected:before {
+    content: "\f125";
+}
+.flaticon-finger-print:before {
+    content: "\f126";
+}
+.flaticon-blockchain:before {
+    content: "\f127";
+}
+.flaticon-blockchain-1:before {
+    content: "\f128";
+}
+.flaticon-blockchain-2:before {
+    content: "\f129";
+}
+.flaticon-bitcoin:before {
+    content: "\f12a";
+}
+.flaticon-blockchain-3:before {
+    content: "\f12b";
+}
+.flaticon-mobile-application:before {
+    content: "\f12c";
+}
+.flaticon-ethereum:before {
+    content: "\f12d";
+}
+.flaticon-ethereum-1:before {
+    content: "\f12e";
+}
+.flaticon-ethereum-2:before {
+    content: "\f12f";
+}
+.flaticon-decentralized:before {
+    content: "\f130";
+}
+.flaticon-decentralized-1:before {
+    content: "\f131";
+}
+.flaticon-decentralized-2:before {
+    content: "\f132";
+}
+.flaticon-hacked:before {
+    content: "\f133";
+}
+.flaticon-hacker-5:before {
+    content: "\f134";
+}
+.flaticon-skull:before {
+    content: "\f135";
+}
+.flaticon-console:before {
+    content: "\f136";
+}
+.flaticon-hacker-6:before {
+    content: "\f137";
+}
+.flaticon-hack:before {
+    content: "\f138";
+}
+.flaticon-hacking:before {
+    content: "\f139";
+}
+.flaticon-data:before {
+    content: "\f13a";
+}
+.flaticon-hacker-7:before {
+    content: "\f13b";
+}
+.flaticon-unlocking:before {
+    content: "\f13c";
+}
+.flaticon-clickbait:before {
+    content: "\f13d";
+}
+.flaticon-folder:before {
+    content: "\f13e";
+}
+.flaticon-documents:before {
+    content: "\f13f";
+}
+.flaticon-spyware:before {
+    content: "\f140";
+}

@@ -1,0 +1,85 @@
+.tab {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    margin: auto;
+    color: white;
+
+}
+
+
+.tab th {
+    font-size: .89em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+
+
+.tab td, th {
+    vertical-align: middle;
+    padding: 0.75rem 0.15rem ;
+    border-top: 1px solid  rgba(255, 255, 255, 0.8);
+
+}
+
+.tab caption {
+    caption-side: top;
+    margin-left: 30px;
+}
+
+.tab td i {
+    padding-right: 2px;
+    float: right;
+    padding-top: 5px;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .tab {
+        border: none;
+
+
+    }
+
+    i {
+        font-size: 16px;
+    }
+
+    .tab thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        overflow: hidden;
+
+        position: absolute;
+        width: 1px;
+    }
+
+    .tab tr {
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    .tab td {
+        display: block;
+        font-size: .9em;
+        text-align: right;
+        min-height: 32px;
+    }
+
+    .tab td::before {
+
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+
+}
